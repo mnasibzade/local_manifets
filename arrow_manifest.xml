@@ -2,30 +2,12 @@
 <manifest>
     <!-- Remotes -->
     <remote name="munir" fetch="https://github.com/mnasibzade"/>
-    <remote name="alonsoj636MW" fetch="https://github.com/alonsoj636MW"/>
-    <remote name="cyberknight777" fetch="https://github.com/cyberknight777"/>
-    <remote name="NetErnels" fetch="https://github.com/Neternels"/>
-    <remote name="StatiXOS" fetch="https://github.com/StatiXOS"/>
-    <remote name="YAAP-GH" fetch="https://github.com/yaap"/>
-    <remote name="AOSPA" fetch="https://github.com/AOSPA"/>
+    <!--<remote name="RyzenKernel" fetch="https://github.com/Neternels"/>
 
     <!-- Device Tree -->
-    <project path="device/xiaomi/sunny" name="device_xiaomi_sunny" remote="munir" revision="arrow-13.1" />
+    <project path="device/xiaomi/ginkgo" name="device_xiaomi_ginkgo" remote="munir" revision="lineage-22" />
     <!-- Kernel Tree -->
-    <project path="kernel/xiaomi/sunny" name="android_kernel_xiaomi_sunny" remote="NetErnels" revision="staging" clone-depth="1" />
+    <!--<project path="kernel/xiaomi/ginkgo" name="android_kernel_xiaomi_ginkgo" remote="NetErnels" revision="staging" clone-depth="1" />
     <!-- Vendor Tree -->
-    <project path="vendor/xiaomi/sunny" name="vendor_xiaomi_sunny" remote="alonsoj636MW" revision="13" clone-depth="1" />
-    <!-- Hardware -->
-    <project path="hardware/xiaomi" name="hardware_xiaomi" remote="alonsoj636MW" revision="14" />
-    <!-- GCC Toolchain -->
-    <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" remote="StatiXOS" revision="12.0.0" clone-depth="1" />
-    <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="android_prebuilts_gcc_linux-x86_arm_arm-eabi" remote="StatiXOS" revision="12.0.0" clone-depth="1" />
-    <!-- KProfiles -->
-    <project path="packages/apps/KProfiles" name="packages_apps_KProfiles" remote="alonsoj636MW" revision="13" />
-    <!-- QCOM -->
-    <project path="device/qcom/common" name="device_qcom_common" remote="alonsoj636MW" revision="13" />
-    <project path="device/qcom/qssi" name="android_device_qcom_qssi" remote="AOSPA" revision="uvite" />
-    <project path="vendor/qcom/opensource/core-utils" name="vendor_qcom_opensource_core-utils" remote="YAAP-GH" revision="fourteen" />
-    <!-- Display Features -->
-    <project path="packages/apps/DisplayFeatures" name="packages_apps_DisplayFeatures" remote="alonsoj636MW" revision="13" />
+    <!---<project path="vendor/xiaomi/ginkgo" name="vendor_xiaomi_ginkgo" remote="alonsoj636MW" revision="13" clone-depth="1" />--->
 </manifest>
