@@ -4,9 +4,9 @@
     <remote name="munir" fetch="https://github.com/mnasibzade"/>
 
     <!-- Device Tree -->
-    <project path="device/xiaomi/ginkgo" name="android_device_xiaomi_ginkgo" remote="munir" revision="15.0" />
+    <project path="device/xiaomi/ginkgo" name="android_device_xiaomi_ginkgo" remote="munir" revision="fifteen" />
     <!-- Kernel Tree -->
     <project path="kernel/xiaomi/ginkgo" name="kernel_xiaomi_trinket" remote="munir" revision="Android-15-retrofit" clone-depth="1" />
     <!-- Vendor Tree -->
-    <project path="vendor/xiaomi/ginkgo" name="proprietary_vendor_xiaomi_ginkgo" remote="munir" revision="15.0" clone-depth="1" />
+    <project path="vendor/xiaomi/ginkgo" name="proprietary_vendor_xiaomi_ginkgo" remote="munir" revision="fifteen" clone-depth="1" />
 </manifest>
