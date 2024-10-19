@@ -5,7 +5,7 @@ local_manifests
 # UDC #
 ----------------
 ```bash
-   git clone https://github.com/mnasibzade/local_manifets.git -b 15.0 .repo/local_manifests
+   git clone https://github.com/mnasibzade/local_manifets.git -b 14.0 .repo/local_manifests
 ```
 
 # Status #
