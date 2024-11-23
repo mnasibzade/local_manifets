@@ -11,9 +11,16 @@
            fetch="https://github.com/alphadroid-devices"
            revision="refs/heads/alpha-14" />
   
+  <!-- Redmi Note 10 -->
   <project path="device/xiaomi/sunny" remote="alpha-devices" name="device_xiaomi_sunny" />
   <project path="vendor/xiaomi/sunny" remote="alpha-devices" name="vendor_xiaomi_sunny" />
   <project path="kernel/xiaomi/sunny" remote="ghub" name="Neternels/android_kernel_xiaomi_sunny" revision="staging" />
+  
+  <!-- Redmi Note 8 -->
+  <project path="device/xiaomi/ginkgo" remote="alpha-devices" name="device_xiaomi_ginkgo" />
+  <project path="vendor/xiaomi/ginkgo" remote="alpha-devices" name="vendor_xiaomi_ginkgo" />
+  <project path="kernel/xiaomi/ginkgo" remote="alpha-devices" name="kernel_xiaomi_ginkgo" />
+  
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" remote="ghub" name="StatiXOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" revision="12.0.0" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" remote="ghub" name="StatiXOS/android_prebuilts_gcc_linux-x86_arm_arm-eabi" revision="12.0.0" />
   <project path="device/qcom/common" remote="ghub" name="yaap/device_qcom_common" revision="fourteen" />
